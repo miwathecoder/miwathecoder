@@ -1,0 +1,214 @@
+body {
+  margin: auto;
+  text-align: center;
+  position: relative;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: white;
+}
+
+hr {
+  border: 6px;
+  width: 4%;
+  border-style: dotted none none;
+  border-color: #66bfbf;
+  margin: 50px auto;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: "Dancing Script", cursive;
+  margin: auto;
+  font-size: 5.625rem;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 3rem;
+}
+
+.p {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.p2 {
+  margin-top: auto;
+  line-height: 150%;
+}
+
+.p1 {
+  color: #66bfbf;
+  margin: auto;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.p4 {
+  font-size: 10px;
+  color: white;
+}
+
+h3 {
+  color: #11999e;
+  font-size: 2rem;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.miwa {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}
+
+.menu {
+  font-size: 25px;
+  text-align: right;
+  background-color: #dbf6e9;
+  padding-top: 20px;
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+.work {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+#top-container {
+  background-size: 100%;
+  background-color: #dbf6e9;
+  position: relative;
+  padding-top: 200px;
+  margin-bottom: 50px;
+}
+
+.fish {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+.turtle {
+  position: absolute;
+  left: 200px;
+  bottom: 250px;
+  width: 100px;
+  height: 100px;
+}
+
+.profile {
+  margin: auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding-top: 15px;
+  margin-top: 30px;
+}
+
+.palmtree {
+  width: 200px;
+  height: 200px;
+  padding-top: 200px;
+  padding-bottom: 20px;
+}
+
+.linkicon {
+  float: left;
+  margin-right: 2rem;
+  width: 25%;
+  height: 25%;
+}
+
+.linkicon1 {
+  float: right;
+  margin-left: 2rem;
+  width: 25%;
+  height: 25%;
+}
+
+.linkicon2 {
+  width: 50px;
+  height: 50px;
+}
+
+.send {
+  margin: auto;
+}
+
+#contact-modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: auto;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  display: none;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+  text-align: left;
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.closex {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+.blur-wall {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+  display: none;
+}
+
+.messageInput {
+  width: 200px;
+  height: 100px;
+}
+
+.btn {
+  margin: auto;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 0;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  background: #66bfbf;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+}
+
+.btn:hover {
+  background: #11999e;
+  text-decoration: none;
+}
